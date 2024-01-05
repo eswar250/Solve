@@ -1,0 +1,33 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#counter
+{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 5px 5px black;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }

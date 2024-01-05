@@ -1,0 +1,110 @@
+.main-heading {
+    background-color: black;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0%;
+    width: 100%;
+}
+.strt{
+    padding-right: 10%;
+}
+ul li {
+    background-color: white;
+    display: inline-block;
+    height: 30px;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+    color: rgb(28, 71, 109);
+    transition: all 1s ease;
+    margin-left: 50px;
+    margin: 20px;
+    font-size: 17px;
+}
+ul li:hover{
+    transform: scale(1.05);
+    color: red;
+}
+.menu {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    
+}
+.menu-section {
+    align-items: center;
+    padding: 20px 200px;
+}
+h1 {
+    font-size: 50px;
+}
+.span{
+    color: rgb(32, 228, 162);
+}
+p {
+    font-size: 20px;
+}
+.buttons {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    gap: 50px;
+}
+button{
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    height: 40px;
+    width: 300px;
+    transition: all 3s ease;
+    cursor: pointer;
+    
+}
+button:hover{
+    transform: scale(1.10);
+    border-color: red;
+}
+.Heading {
+    text-align: center;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.About{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0% 100px;
+}
+.figure{
+    clip-path: circle(120px);
+    filter: grayscale();
+}
+.figure:hover{
+    filter: none;
+}
+.content {
+    font-size: 20px;
+
+}
+.Heading2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.main-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px 100px;
+}
+.card{
+   height: 300px;
+   width: 350px;
+   text-align: center;
+}
+.project-button{
+    height: 30px;
+    width: 100px;
+}
