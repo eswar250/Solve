@@ -23,8 +23,7 @@ body
   justify-content: center;
   align-items: center;
 }
-.para
-{
+.button1{
     position: fixed;
     top: 0;
     right: 0;

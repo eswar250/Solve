@@ -1,0 +1,10 @@
+#results
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+mainDiv
+{
+    border-radius: 10px;
+    padding:5px;
+}
