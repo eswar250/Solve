@@ -1,0 +1,13 @@
+div
+{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    border: 2px solid black;
+    margin:10px;
+}
+.rea
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
