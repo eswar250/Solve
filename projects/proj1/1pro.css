@@ -33,13 +33,12 @@
 
 .image_container {
   border-radius: 50%;
-  overflow: hidden;
 }
-
 .image_container,
 img {
   width: 300px;
   height: 320px;
+  border-radius: 50%;
 }
 .about_section {
   margin-top: 50px;

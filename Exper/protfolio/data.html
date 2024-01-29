@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            paddes: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            paddes: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            paddes: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            paddes: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            paddes: 10px;
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about" id="me">About Me</a>
+        <a href="#projects" id="pr">Projects</a>
+        <a href="#contact" id="con">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a passionate web developer with expertise in HTML, CSS, and JavaScript.
+            I love creates responsive and user-friendly websites that leave a positive impact.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of your project. What technologies did you use? What problems did you solve?</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of your project. What technologies did you use? What problems did you solve?</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact me at: guptaeswar0@gmail.com</p>
+    </footer>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+        const about=document.getElementById('me')
+        me.addEventListener("click",()=>{ alert('goes to aboutme')})
+        const pr=document.getElementById('pr')
+        pr.addEventListener("click",()=>{ alert('goes to Project details')})
+        const con=document.getElementById('con')
+        con.addEventListener("click",()=>{ alert('goes to Contacts')   
+        })
+    </script>
+</body>
+
+</html>
